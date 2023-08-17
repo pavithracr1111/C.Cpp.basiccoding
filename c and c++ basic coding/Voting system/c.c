@@ -2,6 +2,10 @@
 You need to use a program to accept the age of the user and based on the age print if they are eligible for voting or not.
  Anyone who is 18 or older can vote and others can’t. If the user is eligible to vote, Print “Eligible” else print “Ineligible”  */
 
+
+
+ // Decision making ( if else )
+
  
 //C (Method 1)
 #include <stdio.h>
@@ -19,6 +23,9 @@ int main() {
 
        return 0;
 }
+
+
+
 /* C(Method 2 : Ternary Operator)
 #include <stdio.h>
 
