@@ -7,7 +7,7 @@ int main()
     scanf("%d",&n);
 
     fact=factorial(n);
-    printf("Factorial of %d is: %d",n,fact);
+    printf("Factorial of %d is:%d ",n,fact);
     return 0;
 }
 int factorial (int n)
