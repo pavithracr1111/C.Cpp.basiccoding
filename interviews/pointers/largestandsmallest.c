@@ -13,6 +13,7 @@ int minMax(int a[],int len,int *min,int *max)
         if(a[i]>*max)
             *max=a[i];
     }
+    return 0;
 }
 int main()
 {
