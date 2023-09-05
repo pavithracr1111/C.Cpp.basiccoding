@@ -4,7 +4,7 @@
 #include<stdio.h>
 int minMax(int a[],int len,int *min,int *max)
 {
-    *min=*max=a[0];
+    *min = *max =a[0];
     int i;
     for(i=1 ; i<len ; i++)
     {
