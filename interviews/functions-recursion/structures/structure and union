@@ -1,0 +1,6 @@
+struct padding = reduce cpu cycles
+struct packing = reduce size
+
+union ===>  size = depends on size of largest datatype
+# same memory location
+# we can use union to execute a array with mixed datatypes instead of struct ( bz struct will use more memory )
